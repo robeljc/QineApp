@@ -1,7 +1,37 @@
 <resources>
-    <string name="app_name">QineApp</string>
 
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_name">QineApp</string>
+    <string name="enter_button">Enter Button</string>
     <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_tasks">tasks</string>
+    <string name="title_activity_projects_list">projects_list</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_project_list">project_list</string>
+    <string name="title_activity_forum">About the Forum</string>
+    <string name="large_text">
+
+        "Qine forum is highly interactive event where students and experts exhaustively share their opinions and concerns on the quality of Ethiopian secondary education.\n\n"
+
+        "Students from the same school are assigned different tables to encourage inter-school interaction and generate more dynamic and multi-dimensional talks. The tables (groups) are each accompanied by a representative from the Ministry of Education, another invited guest, and a QAPEQ facilitator to lead and direct the discussions. \n \n"
+
+        "The event will kick off with a brief introductory speech given by founding member and President of QAPEQ. The speech will be followed by an opening address by a representative of the Ministry of Education (MoE), regarding challenges in the quality of secondary education and various government efforts to overcome these deep-rooted challenges. Next, a short icebreaker (introductions) activity will take place to help create a friendly and familiar atmosphere among participants.\n\n"
+
+        "The three seminal discussions of this year are:\n\n"
+
+        "1. Ideal Educational Environment \n \n"
+
+        "In this session participants will be asked to brainstorm their ideal school/educational environment, in terms of curriculum, student engagement in classrooms, teacher-student relationship, proficiency of teachers and so forth.\n\n"
+
+        "2. Major Challenges in Secondary Education Quality \n\n"
+
+        " After outlining the type of educational environment they deemed to be ideal, participants then returned to evaluate the present as they experience it. How is our education system today different from the ideal? What is keeping us from reaching the defined objective discussed earlier?\n\n"
+
+        "3. Ensuring Secondary Education Quality: Students' Role\n\n"
+
+     " One integral principle of the forum is the duty of participants, not only to engage in the identification of problems but also to be a part of creating solutions. As young people who are directly experiencing the education system they are discussing, accompanied by the experts who are the shapers and molders of the education they are receiving, they are in the best position to brainstorm new, innovative means of addressing challenges in the quality of education.\n"
+
+
+    </string>
+
 </resources>

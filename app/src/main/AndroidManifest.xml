@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="qapec.qineapp">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,18 +17,51 @@
             android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainMenu"
             android:label="@string/title_activity_main_menu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <intent-filter>
             <action android:name="qapec.qineapp.MainMenu" />
+
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
+
+        <activity android:name=".tasks">
+            <intent-filter>
+                <action android:name="qapec.qineapp.tasks" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_forum"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="qapec.qineapp.About" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".forum_live">
+            <intent-filter>
+                <action android:name="qapec.qineapp.forum_live" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".forum_menu">
+            <intent-filter>
+                <action android:name="qapec.qineapp.forum_menu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

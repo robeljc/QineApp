@@ -164,7 +164,6 @@ public class homepageActivity extends AppCompatActivity {
     }
 
     public void enter_btn_clicked(View view) {
-  //      Button e_button = (Button)findViewById(R.id.enter_button);
         Intent menuActivity= new Intent(homepageActivity.this, MainMenu.class);
         startActivity(menuActivity);
     }
