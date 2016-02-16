@@ -16,44 +16,34 @@
 
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/MainMenuButtons"
         android:text="Forum"
-        android:textSize="64px"
-        android:backgroundTint="#dd8e18"
         android:onClick="forum_menu_clicked"
         android:id="@+id/button"
         android:layout_marginTop="74dp"
         android:layout_alignParentTop="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
         android:text="Projects"
-        android:textSize="64px"
         android:id="@+id/button3"
-        android:backgroundTint="#dd8e18"
+        android:onClick="projects_clicked"
+        style="@style/MainMenuButtons"
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/MainMenuButtons"
         android:text="Resources"
-        android:textSize="64px"
-        android:backgroundTint="#dd8e18"
         android:id="@+id/button2"
         android:layout_below="@+id/button3"
         android:layout_alignLeft="@+id/button3"
         android:layout_alignStart="@+id/button3" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/MainMenuButtons"
         android:text="News"
-        android:textSize="64px"
-        android:backgroundTint="#dd8e18"
         android:id="@+id/button4"
         android:layout_below="@+id/button2"
         android:layout_alignParentLeft="true"

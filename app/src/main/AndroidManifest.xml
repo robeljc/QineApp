@@ -35,20 +35,20 @@
         <activity android:name=".tasks">
             <intent-filter>
                 <action android:name="qapec.qineapp.tasks" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".About"
             android:label="@string/title_activity_forum"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="qapec.qineapp.About" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity android:name=".forum_live">
             <intent-filter>
                 <action android:name="qapec.qineapp.forum_live" />
@@ -59,6 +59,20 @@
         <activity android:name=".forum_menu">
             <intent-filter>
                 <action android:name="qapec.qineapp.forum_menu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".projects_menu" >
+            <intent-filter>
+                <action android:name="qapec.qineapp.projects_menu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".about_project">
+            <intent-filter>
+                <action android:name="qapec.qineapp.about_project" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

@@ -33,4 +33,8 @@ public class MainMenu extends AppCompatActivity {
         startActivity(forum);
     }
 
+    public void projects_clicked(View view) {
+        Intent project= new Intent(this, projects_menu.class);
+        startActivity(project);
+    }
 }
